@@ -12,5 +12,11 @@ pipeline {
       }
     }
 
+    stage('Step 2') {
+      steps {
+        sh 'echo "fish"'
+      }
+    }
+
   }
 }
